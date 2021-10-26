@@ -1,3 +1,6 @@
+/* .App{
+  align-items: center;
+} */
 .header{
   height: 150px;
   background-image: linear-gradient(to right, rgb(21, 87, 148) , rgb(19, 33, 97));
@@ -15,8 +18,28 @@ h1{
 .nav p,.nav a{
   color: white;
   margin: 5px;
+}
+#about{
+  display: flex;
+  justify-content: center;
+}
+#projects{
+  display: flex;
+  justify-content: center;
+}
+#contact{
+  background-image: linear-gradient(to right, rgb(21, 87, 148) , rgb(19, 33, 97));
 
 }
+.contact{
+  display: flex;
+  justify-content: flex-end;
+}
+.contact p {
+  color: white;
+  margin: 10px;
+}
+
 
 
 /* @media screen and (min-width: 900px) {
