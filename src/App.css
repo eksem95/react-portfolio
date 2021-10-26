@@ -39,6 +39,62 @@ h1{
   color: white;
   margin: 10px;
 }
+.sample{
+  border: 3px solid rgb(19, 33, 97);
+  border-radius: 5%;
+  margin:4px;
+  display: flex;
+}
+.sample h2{
+  background-color:rgb(21, 87, 148);
+  border: 1px solid rgb(19, 33, 97);
+  border-radius: 4%;
+  color: black;
+  height: 2.5em;
+  padding: 2px;
+}
+.links{
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: black;
+
+}
+.links p{
+  padding: 5px;
+}
+/* background images by id: */
+#family{
+  background-image: url("./family.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;  
+}
+#budget{
+  background-image: url("./budget.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;  
+}
+#workout{
+  background-image: url("./workout.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;  
+}
+#work{
+  background-image: url("./work.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;  
+}
+#notes{
+  background-image: url("./notes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;  
+}
 
 
 
